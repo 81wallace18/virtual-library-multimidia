@@ -1,0 +1,231 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: #263138;
+}
+
+header{
+    background-color: #49c0f7;
+    display: flex;
+    align-items: self-end;
+    justify-content: space-between;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+header nav a {
+    color: #FFFFFFFF;
+    font-weight: 600;
+    padding: 32px;
+    text-decoration: none;
+}
+
+#inicio {
+    background-color: #49c0f7;
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    padding: 24px 80px 128px 80px;
+    position: relative;
+}
+
+#inicio div {
+    margin: 0 auto 0 auto;
+    min-width: 450;
+    max-width: 500;
+}
+
+#inicio p {
+    text-align: justify;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 32px;
+}
+
+#inicio .tela {
+    padding-left: 32px;
+    padding-top: 32px;
+}
+
+h1,
+h2 {
+    font-weight: 600;
+    font-size: 32px;
+    margin-bottom: 32px;
+}
+
+.paragrafo {
+    line-height: 150%;
+    margin-bottom: 32px;
+}
+
+.botao {
+    background-color: #0097dd;
+    border-radius: 10px;
+    color: #FFFFFFFF;
+    padding: 16px 32px;
+    margin: 0 12px;
+    text-decoration: none;
+}
+
+.botao-transparente {
+    background-color: #0097dd;
+    border-radius: 10px;
+    color: #FFFFFFFF;
+    margin: 0 12px;
+    padding: 16px 32px;
+    text-decoration: none;
+}
+/* .absolute {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: -10;
+} */
+
+#quemsomos {
+    display: flex;
+    align-items: center;
+    gap: 64px;
+    padding: 64px 80ps;
+}
+
+#quemsomos .paragrafo {
+    text-align: justify;
+    max-width: 700px;
+    padding-left: 12px;
+}
+
+#quemsomos li{
+    margin-bottom: 16px;
+    margin-left: 128px;
+}
+
+#quemsomos .sobrenosimg {
+    padding-right: 32px;
+}
+
+.sobrenos {
+    text-align: center;
+}
+
+#acervo {
+    padding: 64px 80px;
+    text-align: center;
+}
+
+#acervo img {
+    margin: 0 auto;
+}
+
+#acervo .paragrafo {
+    max-width: 800px;
+    margin: 32px auto;
+    text-align: justify;
+    min-width: 550;
+    max-width: 600;
+}
+
+.teracesso {
+    background-color: #49c0f7;
+    border-radius: 10px;
+    color: #FFFFFFFF;
+    padding: 12px 32px;
+    text-decoration: none;
+}
+
+#duvidas {
+    display: flex;
+    align-items: center;
+    gap: 64px;
+    padding: 64px 80px;
+
+}
+
+.duvida {
+    position: relative;
+}
+
+.duvida h3 {
+    border: 2px solid #49c0f7;
+    border-radius: 12px;
+    cursor: pointer;
+    padding: 17px;
+}
+
+.duvida img {
+    position: absolute;
+    top: 32px;
+    right: 15px;
+}
+
+.duvida .paragrafo {
+    border-right: 1px solid #49c0f7;
+    border-bottom: 1px solid #49c0f7;
+    border-left: 1px solid #49c0f7;
+    border-radius: 0 0 8px 8px;
+    margin-top: -8px;
+    padding: 0 2apx;
+    opacity: 0;
+    height: 0;
+    overflow: hidden;
+    transition: .2s;
+    text-align: justify;
+}
+
+.duvida.ativa .paragrafo {
+    height: fit-content;
+    opacity: 1;
+    padding: 24px;
+}
+
+footer {
+    background-color: rgba(108, 208, 255, 0.25);
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+    padding: 64px 80px;
+}
+
+footer img,
+footer .titulo {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+
+footer nav a {
+    color: #263138;
+    display: block;
+    margin-bottom: 16px;
+    text-decoration: none;
+    max-width: 350px;
+}
+
+footer p {
+    margin-bottom: 16px;
+}
+
+footer p a {
+    color: #263138;
+    text-decoration: none;
+}
+
+#copy {
+    background-color: #263138;
+    color: #FFFFFFFF;
+    padding: 24px;
+    text-align: center;
+}
+
+#copy a{
+    color: #49c0f7;
+}
