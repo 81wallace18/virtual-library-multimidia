@@ -38,7 +38,7 @@ header nav a {
 
 #inicio div {
     margin: 0 auto 0 auto;
-    min-width: 450;
+    min-width: 470;
     max-width: 500;
 }
 
@@ -163,8 +163,8 @@ h2 {
 
 .duvida img {
     position: absolute;
-    top: 32px;
-    right: 15px;
+    top: 25px;
+    right: 25px;
 }
 
 .duvida .paragrafo {
